@@ -1,0 +1,95 @@
+.butSend {
+  border: 0px double #868686;
+  border-radius: 5px;
+  height: 38px;
+  width: 35px;
+}
+
+.table {
+  width: 170px;
+  border: 1px double #868686;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrap-chat {
+  display: none;
+}
+
+.wrap-mes {
+  margin-left: 174px;
+}
+
+.table-chat {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.div-chat {
+  display: inline-block;
+  position: absolute;
+}
+
+td,
+th {
+  padding: 5px 0px 5px 20px;
+}
+
+h3 {
+  display: block;
+}
+
+.mes {
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px double #868686;
+  padding: 5px;
+  background-color: rgb(235, 235, 235);
+}
+
+.note {
+  margin-top: 10px;
+  width: 290px;
+  height: 150px;
+  border: 1px double #c7c7c7;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  position: absolute;
+  top: 30px;
+  background-color: white;
+}
+
+.tr-chat {
+  width: 330px;
+  display: inline-block;
+}
+
+.input {
+  display: block;
+  width: 96%;
+  border-radius: 5px;
+}
+
+.butSave {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: calc(50% - 50px);
+}
+
+p {
+  margin: 3px;
+}
+
+.er {
+  color: red;
+  font-size: small;
+}
