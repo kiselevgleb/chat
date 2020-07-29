@@ -18,7 +18,7 @@ let users;
 let name = "";
 let mes = JSON.stringify({});
 // let ws = new WebSocket('ws://localhost:7070/ws');
-let ws = new WebSocket('ws://chat-back2.herokuapp.com/ws');
+let ws = new WebSocket('wss://chat-back2.herokuapp.com/ws');
 ws.binaryType = 'blob';
 ws.addEventListener('open', () => {
   console.log('connected');
